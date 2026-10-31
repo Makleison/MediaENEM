@@ -1,0 +1,31 @@
+ENEM MÉDIA — projeto Android
+
+Este é o código-fonte de um app Android simples com cinco controles deslizantes
+(0 a 1000), média simples automática e botão para zerar.
+
+COMO GERAR O APK
+1. Em um computador, instale o Android Studio.
+2. Extraia esta pasta.
+3. No Android Studio, escolha Open e selecione a pasta EnemMediaAndroid.
+4. Aguarde a sincronização do Gradle.
+5. Vá em Build > Build Bundle(s) / APK(s) > Build APK(s).
+6. O Android Studio mostrará onde o APK foi criado.
+
+Observação: este pacote contém o projeto-fonte, não um APK já compilado.
+A média é simples (as cinco áreas têm o mesmo peso); não representa
+necessariamente a nota ponderada usada por cada curso ou universidade.
+
+GERAR APK AUTOMATICAMENTE PELO CELULAR COM GITHUB
+1. Entre em https://github.com e crie uma conta ou faça login.
+2. Crie um repositório novo chamado EnemMedia. Pode deixar como Public.
+3. Envie todos os arquivos e pastas deste projeto para o repositório,
+   mantendo a pasta .github/workflows.
+4. Abra a aba Actions do repositório.
+5. Se aparecer uma confirmação para habilitar Actions, confirme.
+6. O fluxo "Gerar APK Android" será executado. Você também pode abrir
+   o fluxo e tocar em "Run workflow".
+7. Quando terminar com sucesso, abra a execução e procure "Artifacts".
+8. Baixe "EnemMedia-APK.zip", extraia e instale app-debug.apk.
+
+O APK é uma compilação de depuração (debug), adequada para instalação e teste.
+O GitHub Actions compila o APK; não é necessário instalar Android Studio no celular.
